@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+        <style>
+            h1{text-align: center;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+}
+            table {margin-left: auto;
+                 margin-right: auto;}
+                 th, td {
+                   padding-top: 10px;
+                   padding-bottom: 10px;
+                   padding-left: 10px;
+                   padding-right: 10px;}  
+                   table {
+  border-spacing: 10px;
+}    body{
+    background-image: linear-gradient(#ffc04b,#0bc9f4,#78ff98f3);
+}
+        </style>
+    </head>
+    <body >
+        <h1> Student Registration Form</h1>
+        <br>
+        <br>
+        <form action="/action_page.php" method="get">
+            
+            <table>
+                <div class="container">
+                <tr>
+                    <th>Name:</th>
+                    <th><input type="text" placeholder="Name" ></th>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <th> <input type="textarea" placeholder="-Street  -Place  -City"></th>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <th><input type="email" placeholder="sample@gmail.com"></th>
+                </tr>
+                <tr>
+                    <th> Phone Number:</th>
+                    <th> <input type="number" placeholder="******7654"></th>
+                </tr>
+                <tr>
+                    <th>Date of Birth:</th>
+                    <th> <input type="date"></th>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <th> <input type="radio" >Male</th>
+                    <th> <input type="radio" >Female</th>
+                    <th> <input type="radio" >Other</th>
+                </tr>
+                <tr>
+                    <th> Department:</th>
+                    <th><select >
+                        <option value=" Select Department"> &nbsp; Select  &nbsp;  Department</option>
+                        <option value="IT">IT</option>
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Course:</th>
+                    <th> <input type="checkbox" >C+</th>
+                    <th> <input type="checkbox" >Java</th>
+                    <th> <input type="checkbox" >Python</th>
+                    <th> <input type="checkbox" >HTML</th>
+                  
+                </tr>
+                <tr>
+                    <th>Id Proof:</th>
+                    <th> <input type="file"></th>
+                </tr>
+                <tr>
+                    <th><input type="radio">Agree all the conditions,<a href="#">Terms & Privacy</a></th>
+                </tr>
+            </div>
+            </table>
+            
+        <table>
+            <div class="container submit">
+                <tr>
+                    <th> <input type="submit" ></th>
+                    <th> <input type="reset" ></th>
+                </tr>
+            </div>
+
+        </table>
+        </form>
+    </body>
+</html>
